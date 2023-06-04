@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name - Anime Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="logo">Your Name</h1>
+      <h2 class="subheading">A Beautiful Anime Journey</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#characters">Characters</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<font color="white">  <section id="about">
+    <div class="section-container">
+      <h2>About</h2>
+      <p>Your Name is a critically acclaimed anime film directed by Makoto Shinkai. It tells the story of Mitsuha and Taki, two teenagers who mysteriously swap bodies and embark on a journey to unravel the truth behind their connection.</p>
+    </div>
+  </section>
+
+  <section id="characters">
+    <div class="section-container">
+      <h2>Characters</h2>
+      <div class="character-container">
+        <div class="character">
+          <img src="https://github.com/jalagrawal2899/Assets/blob/main/mitsuha.jpeg?raw=true" alt="Mitsuha">
+          <div class="character-info">
+            <h3>Mitsuha</h3>
+            <p>Mitsuha is a high school girl living in a rural town. She yearns for a more exciting life in Tokyo and dreams of becoming a stylish, modern girl.</p>
+          </div>
+        </div>
+        <div class="character">
+          <img src="https://raw.githubusercontent.com/jalagrawal2899/Assets/main/Taki_Tachibana_16.webp" alt="Taki">
+          <div class="character-info">
+            <h3>Taki</h3>
+            <p>Taki is a high school boy living in Tokyo. He has a part-time job and is focused on his studies. Despite leading a busy life, he experiences strange dreams of being in a rural town.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="section-container">
+      <h2>Gallery</h2>
+      <div class="image-container">
+        <img src="https://github.com/jalagrawal2899/Assets/blob/main/scenicview.jpg?raw=true" alt="Scenic View">
+        <img src="https://github.com/jalagrawal2899/Assets/blob/main/O5WW443PE5CZBK3XV6DXHOHNUE.jpg?raw=true" alt="Mitsuha and Taki">
+        <img src="https://github.com/jalagrawal2899/Assets/blob/main/kimi-no-na-wa-makoto-shinkai-starry-night-comet-wallpaper-preview.jpg?raw=true" alt="Starry Night">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-container">
+      <h2>Contact</h2></font>
+
+      <form action="mailto:agrawaljal2020@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="game">
+    <h2>Word Guess Game</h2>
+    <p id="hiddenWord"></p>
+    <p>Remaining Attempts: <span id="remainingAttempts"></span></p>
+    <input type="text" id="guessInput" maxlength="1">
+    <button id="guessButton">Guess</button>
+    <p id="message"></p>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2023 Your Name Anime Website. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
